@@ -48,6 +48,7 @@ def detect_section(menu_303):
         return "Без секции"
 
 # Загрузка данных
+# В sheet_name заносим нужный лист в xlsx (обычно это Лист 1)
 data = pd.read_excel("file.xlsx", sheet_name="cfdb7-2025-04-02 (1)", header=0)
 
 # Создание единого документа
